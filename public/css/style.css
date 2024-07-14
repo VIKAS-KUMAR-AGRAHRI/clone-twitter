@@ -1,0 +1,182 @@
+/* public/css/styles.css */
+.edit-profile-btn {
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+    background-color: #0d95e8;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    color: #1DA1F2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar .logo {
+    height: 30px;
+}
+
+.navbar input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.navbar .avatar {
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.navbar .tweet-btn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header {
+    position: relative;
+    background-color: #1DA1F2;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header .header-bg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header .user-avatar {
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.header .user-info {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    height: 58px;
+    z-index: -1;
+    bottom: -60px;
+    width: 100%;
+}
+.user-info-grid{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    margin-left:25%;
+}
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.sidebar-left, .sidebar-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.tweets-section {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.user-stats {
+    /* display: flex; */
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.tweet {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet-avatar {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.tweet-actions {
+    display: flex;
+    justify-content: space-around;
+    color: #657786;
+}
+
+.suggested-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.suggested-avatar {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.follow-btn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tweet-media {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust as needed */
+    display: block;
+    margin-top: 10px;
+}
